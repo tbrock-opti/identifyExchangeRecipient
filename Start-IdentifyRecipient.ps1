@@ -71,7 +71,7 @@ if (!$eoSession) {
 
     # provide some direction
     Write-Verbose -Message 'No active session for Exchange online, connecting...' -Verbose
-    Write-Verbose -Message 'User Exchange Online admin credential when prompted...' -Verbose
+    Write-Verbose -Message 'Use Exchange Online admin credential when prompted...' -Verbose
 
     # pause 1 second so direction is seen
     Start-Sleep -Seconds 1
